@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.cedrus.design.factory.simple.PhoneSimpleFactory</OriginalElement>
+  <nodes>
+    <node x="159.0" y="103.0">com.cedrus.design.factory.base.MiPhone</node>
+    <node x="0.0" y="103.0">com.cedrus.design.factory.base.ApplePhone</node>
+    <node x="76.31833333333333" y="206.0">com.cedrus.design.factory.simple.PhoneSimpleFactory</node>
+    <node x="124.25" y="0.0">com.cedrus.design.factory.base.IPhone</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cedrus.design.factory.base.MiPhone" target="com.cedrus.design.factory.base.IPhone">
+      <point x="-34.75" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.cedrus.design.factory.simple.PhoneSimpleFactory" target="com.cedrus.design.factory.base.ApplePhone">
+      <point x="-89.66666666666669" y="-49.5" />
+      <point x="121.15166666666664" y="181.0" />
+      <point x="69.5" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.cedrus.design.factory.simple.PhoneSimpleFactory" target="com.cedrus.design.factory.base.MiPhone">
+      <point x="0.0" y="-49.5" />
+      <point x="210.81833333333333" y="181.0" />
+      <point x="228.5" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.cedrus.design.factory.simple.PhoneSimpleFactory" target="com.cedrus.design.factory.base.IPhone">
+      <point x="89.66666666666669" y="-49.5" />
+      <point x="300.485" y="181.0" />
+      <point x="308.5" y="181.0" />
+      <point x="308.5" y="73.0" />
+      <point x="249.35" y="73.0" />
+      <point x="55.599999999999994" y="26.5" />
+    </edge>
+    <edge source="com.cedrus.design.factory.base.ApplePhone" target="com.cedrus.design.factory.base.IPhone">
+      <point x="34.75" y="-26.5" />
+      <point x="104.25" y="83.0" />
+      <point x="165.95" y="83.0" />
+      <point x="-27.80000000000001" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="82.5" y="95.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

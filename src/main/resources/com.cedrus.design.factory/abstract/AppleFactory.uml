@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.cedrus.design.factory.abstracts.AppleFactory</OriginalElement>
+  <nodes>
+    <node x="192.0" y="350.0">com.cedrus.design.factory.base.ApplePad</node>
+    <node x="159.0" y="551.0">com.cedrus.design.factory.base.MiPhone</node>
+    <node x="0.0" y="551.0">com.cedrus.design.factory.base.ApplePhone</node>
+    <node x="212.0" y="126.0">com.cedrus.design.factory.abstracts.MiFactory</node>
+    <node x="106.0" y="0.0">com.cedrus.design.factory.abstracts.IPhoneFactory</node>
+    <node x="0.0" y="350.0">com.cedrus.design.factory.base.MiPad</node>
+    <node x="96.0" y="247.0">com.cedrus.design.factory.base.IPad</node>
+    <node x="0.0" y="126.0">com.cedrus.design.factory.abstracts.AppleFactory</node>
+    <node x="79.5" y="448.0">com.cedrus.design.factory.base.IPhone</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cedrus.design.factory.base.MiPad" target="com.cedrus.design.factory.base.IPad">
+      <point x="0.0" y="-26.5" />
+      <point x="86.0" y="325.0" />
+      <point x="139.0" y="325.0" />
+      <point x="-43.0" y="26.5" />
+    </edge>
+    <edge source="com.cedrus.design.factory.abstracts.AppleFactory" target="com.cedrus.design.factory.abstracts.IPhoneFactory">
+      <point x="0.0" y="-38.0" />
+      <point x="96.0" y="101.0" />
+      <point x="154.0" y="101.0" />
+      <point x="-48.0" y="38.0" />
+    </edge>
+    <edge source="com.cedrus.design.factory.abstracts.MiFactory" target="com.cedrus.design.factory.abstracts.IPhoneFactory">
+      <point x="0.0" y="-38.0" />
+      <point x="308.0" y="101.0" />
+      <point x="250.0" y="101.0" />
+      <point x="48.0" y="38.0" />
+    </edge>
+    <edge source="com.cedrus.design.factory.base.MiPhone" target="com.cedrus.design.factory.base.IPhone">
+      <point x="0.0" y="-26.5" />
+      <point x="228.5" y="526.0" />
+      <point x="183.75" y="526.0" />
+      <point x="34.75" y="26.5" />
+    </edge>
+    <edge source="com.cedrus.design.factory.base.ApplePad" target="com.cedrus.design.factory.base.IPad">
+      <point x="0.0" y="-26.5" />
+      <point x="278.0" y="325.0" />
+      <point x="225.0" y="325.0" />
+      <point x="43.0" y="26.5" />
+    </edge>
+    <edge source="com.cedrus.design.factory.base.ApplePhone" target="com.cedrus.design.factory.base.IPhone">
+      <point x="0.0" y="-26.5" />
+      <point x="69.5" y="526.0" />
+      <point x="114.25" y="526.0" />
+      <point x="-34.75" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="261.5" y="181.5" />
+  <SelectedNodes>
+    <node>com.cedrus.design.factory.abstracts.AppleFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
