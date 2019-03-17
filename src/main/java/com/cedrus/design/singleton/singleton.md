@@ -24,6 +24,15 @@ synchronized 关键字解决了线程安全问题，但是存在一定的性能�
 ## 内部类的懒汉单例
 式兼顾饿汉式的内存浪费，也兼顾synchronized性能问题
 
+### 执行逻辑：
+1.未使用LazyInnerClassSingleton之前，内部类LazyHolder也不会创建
+2. 调用LazyInnerClassSingleton.getInstance() 方法的时候，
+* 先初始化内部类LazyHolder：初始化LazyHolder 静态私有成员 LAZY
+3. 初始化LazyInnerClassSingleton 
+* 调用私有构造方法LazyInnerClassSingleton()
+* 调用getInstance方法，返回单例
+时序图见 resources/com/cedrus/design/singleton/singleton.png
+
 ## 3. 注册式单例
 注册式单例又称为登记式单例，就是将每一个实例都登记到某一个地方，使用唯一的标
 识获取实例。注册式单例有两种写法：一种为容器缓存，一种为枚举登记
