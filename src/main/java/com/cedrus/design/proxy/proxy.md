@@ -10,6 +10,15 @@
 ### jdk动态代理
 * 被代理对象必须要实现接口，
 * 代理类 实现InvocationHandler 接口，重写invoke方法
+* 注：这里被代理对象的接口个数不能超过65535个，官方解释
+~~~
+     * <li>The resulting proxy class must not exceed any limits imposed
+     * on classes by the virtual machine.  For example, the VM may limit
+     * the number of interfaces that a class may implement to 65535; in
+     * that case, the size of the {@code interfaces} array must not
+     * exceed 65535.
+     * </ul>
+~~~
 #### 字节码重组 过程
 1. 拿到被代理对象的引用，并且获取到它的所有的接口，反射获取。
 2. JDKProxy类重新生成一个新的类、同时新的类要实现被代理类所有实现的所有的接口。
