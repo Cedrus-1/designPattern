@@ -12,8 +12,8 @@ public class GuavaEventTest {
 
         //消息总线
         EventBus eventBus = new EventBus();
-        GuavaTeacher guavaEvent = new GuavaTeacher("Tom");
-        eventBus.register(guavaEvent);
+        GuavaTeacher teacher = new GuavaTeacher("Tom");
+        eventBus.register(teacher);
         eventBus.post(question);
 
 

@@ -3,9 +3,7 @@ package com.cedrus.design.observer.events;
 import com.cedrus.design.observer.events.mouseevent.Mouse;
 import com.cedrus.design.observer.events.mouseevent.MouseEventCallback;
 import com.cedrus.design.observer.events.mouseevent.MouseEventType;
-/**
- * Created by Tom on 2019/3/17.
- */
+
 public class MouseEventTest {
     public static void main(String[] args) {
 
